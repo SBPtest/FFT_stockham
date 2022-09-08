@@ -1,4 +1,4 @@
-import numpy as np #purely as test, cmath outperform np.exp
+import numpy as np #purely as test, cmath outperform np.exp for singular form like this code
 import cmath
 
 def twiddle(k,n,N):
