@@ -14,7 +14,7 @@ def puredft(x): #DFT of x, i.e output=DFT(x)
         y[a]=c0
     return y
 
-def logn(n,x): # return integers of a log i.e log2(8)=3, log2(6)=error, n is the base of the log
+def logn(n,x): # return log if it's integer i.e log2(8)=3, log2(6)=error, n is the base of the log
     assert x%n==0
     i=1
     if x<n:
